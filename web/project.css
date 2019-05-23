@@ -1,0 +1,114 @@
+body {
+    background-image: url(http://hdqwalls.com/wallpapers/fortnite-hd-vs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: purple;
+    color: deepskyblue;
+}
+
+p.center, h2.center, h3.center {
+    text-align: center;
+}
+
+p.left {
+    margin-left: 10em;
+    margin-top: 1em;
+}
+
+table {
+    border: 1px solid #ddd;
+    width: 85%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-radius: 0.5em;
+    border-color: #aaa;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid #aaa;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-left: none;
+    border-right: none;
+}
+
+th {
+    padding-top: 1.9em;
+    padding-bottom: 1.9em;
+    background-color: midnightblue;
+    border-top: none;
+}
+
+tr:hover td {
+    background-color: #2E4053;
+}
+
+input[type=submit] {
+    font-size: 1.5rem;
+    width: 23rem;  
+    height: 6.5rem;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 0 0.3rem black;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+input[type=submit].green {
+    background-color: #1ADF04
+}
+
+input[type=submit].green:hover {
+    box-shadow: 0px 0px 68px 5px #1ADF04;
+}
+
+input[type=submit].blue {
+    background-color: #025FFD
+}
+
+input[type=submit].blue:hover {
+    box-shadow: 0px 0px 68px 5px #025FFD;
+}
+
+input[type=submit].purple {
+    background-color: #B92BFB
+}
+
+input[type=submit].purple:hover {
+    box-shadow: 0px 0px 68px 5px #B92BFB;
+}
+
+input[type=submit].gold {
+    background-color: #F39C12
+}
+
+input[type=submit].gold:hover {
+    box-shadow: 0px 0px 68px 5px #FBC627;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
+    border: 0.08em solid #ccc;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+}
+
+div {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    border-radius: 1em;
+    background-color: #f2f2f2;
+    padding: 1.25em;
+}
